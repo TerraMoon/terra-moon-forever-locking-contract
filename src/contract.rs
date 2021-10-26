@@ -5,7 +5,7 @@ use cosmwasm_std::DepsMut;
 use cosmwasm_std::{entry_point, Env, MessageInfo, Response, StdResult};
 use cw2::set_contract_version;
 
-const CONTRACT_NAME: &str = "crates.io:terra-mooon-forever-locking-contract";
+const CONTRACT_NAME: &str = "crates.io:terra-moon-forever-locking-contract";
 const CONTRACT_VERSION: &str = env!("CARGO_PKG_VERSION");
 
 #[cfg_attr(not(feature = "library"), entry_point)]
